@@ -1,0 +1,8 @@
+<div>
+  <h2>Görev Listesi</h2>
+  <ul>
+    <li *ngFor="let gorev of gorevler">
+      {{ gorev.gorevNo }} - {{ gorev.tur }} - {{ gorev.icerik }} - {{ gorev.atananKisi }}
+    </li>
+  </ul>
+</div>

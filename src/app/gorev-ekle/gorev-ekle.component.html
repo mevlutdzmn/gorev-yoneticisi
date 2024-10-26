@@ -1,0 +1,16 @@
+<div>
+  <h2>Görev Ekle</h2>
+  <label for="gorevNo">Görev No:</label>
+  <input id="gorevNo" [(ngModel)]="gorevNo" type="number" />
+
+  <label for="tur">Tür:</label>
+  <input id="tur" [(ngModel)]="tur" type="text" />
+
+  <label for="icerik">İçerik:</label>
+  <textarea id="icerik" [(ngModel)]="icerik"></textarea>
+
+  <label for="atananKisi">Atanan Kişi:</label>
+  <input id="atananKisi" [(ngModel)]="atananKisi" type="text" />
+
+  <button (click)="ekle()">Ekle</button>
+</div>
